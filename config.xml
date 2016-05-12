@@ -3,20 +3,21 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.callMyCabDriver"
+        id        = "com.sateweb.driverjojo"
         version   = "1.0.0">
 
-    <name>DriverApp</name>
+    <name>JojoDriver</name>
 
     <description>
         Call My Cab Driver application .
     </description>
 
-    <author href="http://techware.co.in/" email="info@techware.co.in">
-        Techware Solution
+    <author href="http://sateweb.com/" email="info@sateweb.com">
+        sateweb
     </author>
         
-        
+        <content src="index.html" />
+    
     <!--
         If you do not want any permissions to be added to your app, add the
         following tag to your config.xml; you will still have the INTERNET
