@@ -1,26 +1,26 @@
 /* BG COLOR 
 =================*/
 
-.bg-yellow{ background-color: #ff4060; }
+.bg-yellow{ background-color: #FF4060; }
 .bg-black{ background-color: #000;}
 .bg-white{background-color: #fff;}
 
-.bg-dark{ background-color: #161616 !important;}
-.bg-dark1{ background-color: #2e2f32 !important;}
-.bg-dark2{background-color: #1c1c1c !important;}
-.bg-light{background-color: #38393D !important;}
+.bg-dark{ background-color: #FF4060 !important;}
+.bg-dark1{ background-color: #fff !important;}
+.bg-dark2{background-color: #D5D5D5 !important;}
+.bg-light{background-color: #FF4060 !important;}
 
 .color-white {color: #fff !important;}
-.bg-grey{  background-color: #212224}
+.bg-grey{  background-color: #fff}
 
 /* common color */
-.color-yellow{ color: #ff4060 !important }/*#F2C21E !important;*/
-.color-gery{ color: #929292 !important }
+.color-yellow{ color:  #fff !important;}
+.color-gery{ color: #000 !important }
 .color-d-gery{ color: #4d4d4d !important }
 
 .test-h{height: 40px}
 
-.border-r-yellow{ border-right: 1px solid #584A18}
+.border-r-yellow{ border-right: 1px solid #fff}
 
 
 .visible {
@@ -65,9 +65,9 @@
 }
 /* #set-top{ border: 1px solid #F2C21E;} */
 
-.popup{ background-color: #444444 !important; border-radius: 10px !important;}
+.popup{ background-color: #fff !important; border-radius: 10px !important;}
 
-.popup-head { border-bottom: 1px solid #73632B !important; }
+.popup-head { border-bottom: 1px solid #99263A !important; }
 
 .popup-title {}
 
@@ -77,7 +77,7 @@
 
 .popup-buttons.row {}
 
-.popup-buttons .button {border: 1px solid #1C1C1C !important; color: #F2C21E !important; background-color:#444444 !important; border-radius: 5px !important; }
+.popup-buttons .button {border: 1px solid #1C1C1C !important; color: #fff !important; background-color:#FF4060 !important; border-radius: 5px !important; }
 
 
 
@@ -118,5 +118,26 @@
 	backface-visibility: hidden;
 	perspective: 1000;
 }
-
+.App_color_code
+{
+    color:#FF4060;
+}
+.App_color_hr
+{
+    height: 1px !important;
+    background-color: #000 !important;
+    position: relative;
+}
+.splash_bg
+{
+    background-color:#575DE7;
+}
+.sign_btn
+{
+    background-color: yellow;
+}
+.txt_color
+{
+color: black;
+}
 /* .pac-container { z-index: 10000 !important; } */

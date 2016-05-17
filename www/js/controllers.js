@@ -270,10 +270,10 @@ App.controller('landingCtrl', function ($cordovaOauth, $scope, $ionicModal, $tim
                 $scope.signUp.error_list = data.error_list;
 
                 $ionicPopup.alert({
-                    title: '<p class="text-center color-yellow">'+$filter('langTranslate')("Failed",$rootScope.appConvertedLang['Failed'])+'</p>',
+                    title: '<p class="text-center" style="color:black">'+$filter('langTranslate')("Failed",$rootScope.appConvertedLang['Failed'])+'</p>',
 
                     template: "<div ng-show='signUp.error_list.length' class='text-center  m-top-20'>" +
-                        "<span ng-repeat='error in signUp.error_list' class='color-yellow d-block'>" +
+                        "<span ng-repeat='error in signUp.error_list' class='txt_color d-block'>" +
                         "{{error.message}} " +
                         "</span>" +
                         "</div>",

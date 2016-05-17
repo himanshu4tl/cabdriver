@@ -33,7 +33,7 @@ App.controller('settingsCtrl', function ($scope, $rootScope, $ionicModal, $timeo
                 if (data.status == 'success') {
 
                     $ionicPopup.alert({
-                        title: '<p class="text-center color-yellow">'+$filter('langTranslate')("SUCCESS",$rootScope.appConvertedLang['SUCCESS'])+'</p>',
+                        title: '<p class="text-center txt_color">'+$filter('langTranslate')("SUCCESS",$rootScope.appConvertedLang['SUCCESS'])+'</p>',
 
                         template: "<p class='text-center color-gery'>"+$filter('langTranslate')("Password successfully updated",$rootScope.appConvertedLang['Password_successfully_updated'])+"</p>",
                         scope: $scope
@@ -41,7 +41,7 @@ App.controller('settingsCtrl', function ($scope, $rootScope, $ionicModal, $timeo
                 }
                 if (data.status == 'fail') {
                     $ionicPopup.alert({
-                        title: '<p class="text-center color-yellow">'+$filter('langTranslate')("Failed",$rootScope.appConvertedLang['Failed'])+'</p>',
+                        title: '<p class="text-center txt_color">'+$filter('langTranslate')("Failed",$rootScope.appConvertedLang['Failed'])+'</p>',
 
                         template: "<p class='text-center color-gery'>"+$filter('langTranslate')("Current password is error",$rootScope.appConvertedLang['Current_password_is_error'])+"</p>",
                         scope: $scope
